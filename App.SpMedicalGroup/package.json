@@ -1,0 +1,33 @@
+{
+  "name": "appspmedicalgroup",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.4.0",
+    "axios": "^0.21.1",
+    "expo-linear-gradient": "^4.0.0",
+    "jwt-decode": "^2.2.0",
+    "moment": "^2.24.0",
+    "react": "16.8.3",
+    "react-moment": "^0.9.2",
+    "react-native": "^0.64.2",
+    "react-native-gesture-handler": "^1.2.1",
+    "react-native-linear-gradient": "^2.5.4",
+    "react-navigation": "^3.9.2"
+  },
+  "devDependencies": {
+    "@babel/core": "7.4.4",
+    "@babel/runtime": "7.4.4",
+    "babel-jest": "24.8.0",
+    "jest": "24.8.0",
+    "metro-react-native-babel-preset": "0.54.1",
+    "react-test-renderer": "16.8.3"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
